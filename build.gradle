@@ -6,7 +6,9 @@ apply plugin: 'java'
 sourceCompatibility = 1.5
 
 repositories {
+    maven { url "https://jitpack.io" }
     mavenCentral()
+
 }
 
 dependencies {

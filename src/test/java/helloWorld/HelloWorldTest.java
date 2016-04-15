@@ -17,7 +17,7 @@ public class HelloWorldTest {
 
     @Test
     public void testReturnThree() throws Exception {
-        Assert.assertEquals(hw.returnThree(), 2);
+        Assert.assertEquals(hw.returnThree(), 3);
     }
 
 }
